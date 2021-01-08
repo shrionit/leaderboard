@@ -18,6 +18,11 @@ Run
 ```cmd
 yarn start
 ```
+now goto
+```url
+http://localhost:3000
+```
+
 ## Database Setup
 Install XAMPP and start apache and mysql
 Create a new database named "db"
@@ -39,4 +44,9 @@ Run
 ```cmd
 python manage.py migrate
 python manage.py runserver
+```
+
+backend server is running on port:8000
+```url
+http://localhost:8000
 ```
