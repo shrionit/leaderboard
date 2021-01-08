@@ -37,5 +37,6 @@ cd sl_backend
 Run
 
 ```cmd
+python manage.py migrate
 python manage.py runserver
 ```
